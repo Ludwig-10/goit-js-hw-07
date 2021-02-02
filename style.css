@@ -1,0 +1,26 @@
+#gallery {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  #gallery li:not(:last-child) {
+    margin: 0 20px 20px 0;
+  }
+  
+  #gallery img {
+    height: 190px;
+  }
+
+  #validation-input {
+    border: 3px solid #bdbdbd;
+  }
+  
+  #validation-input.valid {
+    border-color: #4caf50;
+  }
+  
+  #validation-input.invalid {
+    border-color: #f44336;
+  }
